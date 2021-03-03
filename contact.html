@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>WebTech Assignment</title>
+</head>
+<style>
+    .profile {
+        height: 30px;
+        width: 150px;
+        background-color: whitesmoke;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="profile">
+    <strong>
+        <em>
+            <h2>
+                My Website
+            </h2>
+        </em>
+    </strong>
+</div>
+<div class="bar" width="100% height=50%">
+
+    <strong><a href="#">Profile</a></strong>
+    <a href="/index.html">Home</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a class="active" href="#">Contact</a>
+</div>
+<img class="img7" src="7.png" alt="" width="200px" height="200px">
+<style>
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=email],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #08ff08;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .form {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <h2>Contact Me</h2>
+
+    <div class="form">
+        <form action="/contact.html">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">E-Mail</label>
+            <input type="email" name="email" id="email" placeholder="example@gamil.com">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="usa">India</option>
+                <option value="usa">Nepal</option>
+            </select>
+            <label for="querry">Wrtie your Querry</label>
+            <input type="text" placeholder="This is the textarea">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
